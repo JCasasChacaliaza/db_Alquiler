@@ -17,3 +17,28 @@ use dbAlquiler;
 
 select database ();
 
+ /*crear tabla persona*/
+
+ create table PERSONA (
+    CODPER INT ,
+    NOMPER VARCHAR(150),
+    APEPATPER VARCHAR (150),
+    APEMATPER VARCHAR (150),
+    DNIPER CHAR (8),
+    DIRPER VARCHAR (150),
+    UBIGEI_CODUBI CHAR (6),
+    TELEFIPER CHAR(9),
+    TELE2PER CHAR (9),
+    SEXOPER CHAR (1),
+    TIPPER CHAR (1),
+    USUPER VARCHAR (50),
+    PASSPER VARCHAR (50),
+    CONSTRAINT CODPER_PK PRIMARY KEY (CODPER)  
+ );
+/*VERIFICAR SI SE A CREADO LA TABLA PERSONA*/
+
+SHOW TABLES;
+
+
+
+
