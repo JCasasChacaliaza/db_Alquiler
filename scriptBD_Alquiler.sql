@@ -38,7 +38,23 @@ select database ();
 /*VERIFICAR SI SE A CREADO LA TABLA PERSONA*/
 
 SHOW TABLES;
+/*verificar la estrutura de la tabla persona*/
 
+show columns in persona;
+/*crear tabla ubigeo*/
+
+create table UBIGEO (
+    CODUBI CHAR (6),
+    DISTUBI VARCHAR (150),
+    PROVUBI VARCHAR (150),
+    DPTUBI VARCHAR (150),
+    CONSTRAINT CODUBI_PK PRIMARY KEY (CODUBI)
+);
+
+SHOW TABLES;
+/*verificar estrutura de la tabl ubigeo*/
+
+show columns in ubigeo;
 
 
 
