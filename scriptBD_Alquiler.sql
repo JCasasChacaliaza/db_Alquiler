@@ -105,3 +105,5 @@ SHOW TABLES;
 alter table persona
     add CONSTRAINT ubigeo_fk foreign key (UBIGEO_CODUBI)
     references ubigeo(CODUBI);
+
+    
